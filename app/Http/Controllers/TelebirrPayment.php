@@ -50,15 +50,15 @@ class TelebirrPayment extends Controller
         Form::create($request->all());
 
         require '../vendor/autoload.php';
-        $PUBLICKEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4OmnA3LBGUFet0jqpiMpvceQqvM3OXfjgeiBqhT8x5jwqD4CevZ7BaZDlucS+AOHUjHSgMYD8BZ6dGa6tjbA+cMj87ONX6+QFfWCfgTD8ZjPxttg8+yc1zibIdo6OwMVZPd2UQdPLBRVskCJtCscl0Z5n7oFSFjDB9fNkORIkiovyos0AfE2i88LBmF2+EgdFC/lB4ZusRzn/+CZe6S6QVaXoI9GQDlQq52vsqspDQk/Mwe4eILpcw/ZCBE+Dk9IwvtR6gVSKA15nMqUxZ3dgDFgm16H2dS8lzIJyIjH8fo/q1yfLJo+XE+i8aFCC0HOmzeUuDBsiihRWWRR53odTwIDAQAB";
-        $APPKEY = "357fd1653ea34d9f8b07c5549521f182";
-        $APPID = "8de94201485245ea863f070a4dbba8ef";
-        $SHORTCODE = "500284";
+        $PUBLICKEY = "";
+        $APPKEY = "";
+        $APPID = "";
+        $SHORTCODE = "";
         $API = "https://app.ethiomobilemoney.et:2121/ammapi/payment/service-openup/toTradeWebPay";
-        $NOTIFYURL = "https://pay.actamericancollege.com/notifyUrl.php";
-        $RETURNURL = "https://pay.actamericancollege.com/";
+        $NOTIFYURL = "";
+        $RETURNURL = "";
         $TIMEOUT = '30';
-        $RECIVER = "American College ACT";
+        $RECIVER = "";
         $totalAmount = $_POST["totalAmount"];
         $subject = $_POST["subject"];
 
@@ -68,7 +68,7 @@ class TelebirrPayment extends Controller
             $APPID,
             $API,
             $SHORTCODE,
-            $NOTIFYURL, 
+            $NOTIFYURL,
             $RETURNURL,
             $TIMEOUT,
             $RECIVER,

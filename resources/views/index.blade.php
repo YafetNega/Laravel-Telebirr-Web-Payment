@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>American College of Technology</title>
+        <title>Telebirr Web Payment</title>
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -27,13 +27,13 @@
     <body class="antialiased">
         <header id="header" class="fixed-top d-flex align-items-center">
             <div class="container d-flex justify-content-between align-items-center">
-        
+
               <div class="logo">
                 <h1><img src="assets/img/act1.png"></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
               </div>
-        
+
               <nav id="navbar" class="navbar">
                 <ul>
                     @if (Route::has('login'))
@@ -49,7 +49,7 @@
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
               </nav><!-- .navbar -->
-        
+
             </div>
         </header><!-- End Header -->
 
@@ -74,7 +74,7 @@
           <div class="row">
             <div class="col-lg-8 text-center text-lg-start">
               <h1 data-aos="fade-right">Pay your fee using Telebirr</h1>
-              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">American College of Technology now offers a quick way to pay your tuition using Telebirr.</p>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Telebirr Web Payment now offers a quick way to pay your tuition using Telebirr.</p>
               <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="{{ route('register') }}" class="btn btn-outline-white">Get started</a></p>
             </div>
             <div class="col-lg-4 iphone-wrap">
@@ -155,7 +155,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-4 mb-md-0">
-          <h3>American College of Technology</h3>
+          <h3>Telebirr Web Payment</h3>
           <p>ICT Mart Building, Arat Kilo Behind Tourist Hotel 4th Floor Arada Sub-City, Woreda 9 Addis Ababa, Ethiopia
             Phone: +251 955 04 04 04
             Email: info@act.edu.et</p>
@@ -180,7 +180,7 @@
 
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
-          <p class="copyright">&copy; Copyright American College of Technology. All Rights Reserved</p>
+          <p class="copyright">&copy; Copyright Telebirr Web Payment. All Rights Reserved</p>
         </div>
       </div>
 

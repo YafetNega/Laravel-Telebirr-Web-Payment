@@ -43,3 +43,5 @@ After setting the required keys and running the application, you can test the Te
 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Contact Me: yafetnega1997@gmail.com
